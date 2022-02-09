@@ -8,7 +8,7 @@ You can obtain the source code of EnthalpyTajti as follows.
 In your bash terminal type:
 
 ~~~~~~~~~~
-$cd /local/path/to/EnthalpyG4
+$cd /local/path/to/EnthalpyTajti
 $git clone https://github.com/Edgargj/EnthalpyTajti.git
 ~~~~~~~~~~
 
@@ -34,7 +34,7 @@ $make
 How to test the program (or how it should be):
 
 ~~~~~~~~~~
-$./computeEnthalpyNIST.x 4NBALa.txt
+$./computeEnthalpyTajti.x 4NBALa.txt
                                                                                                   
 ===================================================================================================
                       New calculation of molecular enthalpies of formation                         
