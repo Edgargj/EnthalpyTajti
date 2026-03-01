@@ -1,6 +1,6 @@
 # EnthalpyTajti
 
-EnthalpyTajti is a program that calculates the enthalpies of formation (by the Gaussian09 G4, G3, G3MP2, CBS-APNO and CBS-QB3 method) of gaseous atoms at 0 K (with the exception of carbon data 711.79 kJ/mol from A. Tajti et al. J. Chem. Phys. 121, 2004, 11599) and thermal corrections for elements in their standard state at 298.15 K from: NIST-JANAF Thermochemical Tables J. Physics Chem. Data Monograph 9, 1998, 1-1951.
+EnthalpyTajti is a program that calculates molecular enthalpies of formation at 298.15 K, using the output of the Gaussian09 package. To compute the enthalpies, the program uses internally atomization reactions. In addition, experimental data of all gaseous atoms at 0 K (except Carbon) and thermal corrections for elements in their standard state at 298.15 K are taken from NIST-JANAF Thermochemical Tables J. Physics Chem. Data Monograph 9, 1998, 1-1951. Carbon data, 711.79 kJ/mol, is used as recommended by A. Tajti et al. J. Chem. Phys. 121, 2004, 11599. The program supports the following composite methods: G3, G3MP2, G4, CBS-APNO and CBS-QB3.
 
 # Git instructions
 
